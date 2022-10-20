@@ -4,7 +4,7 @@ module "network" {
 
   # insert required variables here
     project_id   = var.project
-    network_name = "example-vpc"
+    network_name = "new-network"
         subnets = [
   {
     subnet_name   = "gaurav-subnet"
